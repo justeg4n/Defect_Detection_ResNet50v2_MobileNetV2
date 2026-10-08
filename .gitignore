@@ -1,0 +1,58 @@
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+.vscode/
+.idea/
+~$*
+
+# ===== Python / Jupyter / R =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+venv/
+.Rhistory
+.RData
+.Rproj.user/
+
+# ===== Node / front-end builds =====
+node_modules/
+build/
+dist/
+
+# ===== Secrets & credentials =====
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+credentials*.json
+
+# ===== Archives =====
+*.zip
+*.rar
+*.7z
+*.tgz
+*.tar.gz
+
+# ===== Model weights, vector indexes, local databases =====
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.faiss
+*.index
+*.joblib
+*.sqlite3
+
+# ===== Local-only: image datasets and trained .h5 weights =====
+/Project_Deeplearning/
